@@ -1,0 +1,44 @@
+/*
+*
+* RD Google Map
+* --------------------------------------------------
+*/
+
+.google-map {
+	width: 100%;
+	color: $black;
+	height: $map-height;
+
+	img {
+		max-width: none !important;
+	}
+
+	@include media-breakpoint-up(md) {
+		height: $map-md-height;
+	}
+
+	@include media-breakpoint-up(xl) {
+		height: $map-xl-height;
+	}
+}
+
+.section-map-small {
+	.google-map {
+		@include media-breakpoint-up(lg) {
+			height: 447px;
+		}
+	}
+}
+
+.gm-style-iw > div > div {
+	padding-right: 10px;
+	font-size: 14px;
+	line-height: 1.72;
+	font-weight: 400;
+	letter-spacing: .025em;
+	font-family: $font-family-base;
+}
+
+.map_locations {
+	display: none;
+}

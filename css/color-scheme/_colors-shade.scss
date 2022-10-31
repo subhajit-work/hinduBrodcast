@@ -1,0 +1,18 @@
+//
+// Accent Colors Shade
+//
+
+$primary-1: lighten(saturate(adjust_hue($primary, -2.06957547169813), 15.816636308439584%), 5.490196078431374%);
+$primary-2: lighten(saturate(adjust_hue($primary, -0.09759271307743234), 23.22404371584699%), 13.725490196078432%);
+$primary-3: lighten(saturate(adjust_hue($primary, -0.22298456260722332), 10.655737704918039%), 11.960784313725505%);
+$primary-4: darken(desaturate(adjust_hue($primary, 0.26979368718036767), 0.12278489413950666%), 0.588235294117645%);
+$primary-5: lighten(saturate(adjust_hue($primary, 0.23156089193824414), 0.5573770491803245%), 8.627450980392169%);
+$primary-6: lighten(saturate(adjust_hue($primary, 0.0679245283018588), 9.74886641088245%), 10.980392156862749%);
+$primary-7: lighten(saturate(adjust_hue($primary, -0.21978021978017637), 8.712692191739535%), 5.490196078431374%);
+$primary-8: lighten(desaturate(adjust_hue($primary, -14.651162790697668), 8.295625942684765%), 10.784313725490193%);
+$primary-9: darken(saturate(adjust_hue($primary, 7.1084337349397515), 6.1403508771929864%), 1.17647058823529%);
+$primary-10: darken(desaturate(adjust_hue($primary, -0.13397129186603252), 9.991452991453002%), 6.666666666666671%);
+
+$secondary-2: lighten(saturate(adjust_hue($secondary, 0), 0.03860258637332947%), 1.5686274509803866%);
+$secondary-3: lighten(saturate(adjust_hue($secondary, 0.21428571428569754), 7.718947718947714%), 3.333333333333343%);
+$secondary-4: darken(saturate(adjust_hue($secondary, 0.5), 10.280042538107043%), 0.7843137254902004%);
